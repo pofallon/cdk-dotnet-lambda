@@ -10,7 +10,11 @@
   <ItemGroup>
     <!-- CDK Construct Library dependencies -->
     <PackageReference Include="Amazon.CDK" Version="1.108.1" />
+    <PackageReference Include="Amazon.CDK.AWS.CloudWatch" Version="1.108.1" />
     <PackageReference Include="Amazon.CDK.AWS.Lambda" Version="1.108.1" />
+    <PackageReference Include="Amazon.CDK.AWS.Logs" Version="1.108.1" />
+    <PackageReference Include="Amazon.CDK.AWS.APIGatewayv2" Version="1.108.1" />
+    <PackageReference Include="Amazon.CDK.AWS.APIGatewayv2.Integrations" Version="1.108.1" />
 
     <!-- jsii Roslyn analyzers (un-comment to obtain compile-time checks for missing required props
     <PackageReference Include="Amazon.Jsii.Analyzers" Version="*" PrivateAssets="all" />
